@@ -1,0 +1,48 @@
+/*@font-face {*/
+/*    font-family: BlenderProBook;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    src: url(/build/fonts/BlenderPro-Book-a6763c9a.woff2) format("woff2"),url(/build/fonts/BlenderPro-Book-a7182e33.woff) format("woff")*/
+/*}*/
+
+@font-face {
+    font-family: BlenderProBold;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://www.cyberpunk.net/fonts/BlenderPro-Bold.woff2) format("woff2"),url(https://www.cyberpunk.net/fonts/BlenderPro-Bold.woff) format("woff")
+}
+
+/*@font-face {*/
+/*    font-family: HalisGR-Bold;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    src: url(/build/fonts/hinted-HalisGR-Bold-f6020258.woff2) format("woff2"),url(/build/fonts/hinted-HalisGR-Bold-8554de68.woff) format("woff")*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: HalisGR-Medium;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    src: url(/build/fonts/hinted-HalisGR-Medium-53fed1cb.woff2) format("woff2"),url(/build/fonts/hinted-HalisGR-Medium-19e46d65.woff) format("woff")*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: ProximaNova;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    src: url(/build/fonts/hinted-ProximaNova-Regular-2ccffeb5.woff2) format("woff2"),url(/build/fonts/hinted-ProximaNova-Regular-91d8c973.woff) format("woff")*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: ProximaNova;*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    src: url(/build/fonts/hinted-ProximaNova-Semibold-2d0322fb.woff2) format("woff2"),url(/build/fonts/hinted-ProximaNova-Semibold-ab7618fc.woff) format("woff")*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: AraESNawar;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    src: url(/build/fonts/AraESNawar-Regular-2bdc6bbd.woff2) format("woff2"),url(/build/fonts/AraESNawar-Regular-d719fefc.woff) format("woff")*/
+/*}*/
