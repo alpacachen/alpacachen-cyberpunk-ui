@@ -5,12 +5,14 @@ import 'augmented-ui/augmented-ui.min.css'
 
 export const CyberButton:FC<{
   width?: string
+  height?: string
+  fontSize?: string
   onClick?: React.MouseEventHandler<HTMLButtonElement>
 }> = (props) => {
-  console.log(props, 44)
-  return <button onClick={props.onClick} className='cyber-button-container' data-augmented-ui="bl-clip" data-text={props.children} >
-    <div className='cyber-button' style={{height: '100px', width: props.width}}>{props.children}</div>
+  const { width, height, children, fontSize } = props
+  return <button style={{fontSize}} onClick={props.onClick} className='cyber-button-container' data-augmented-ui="bl-clip" >
+    <div className='cyber-button' style={{height, width}}>{children}</div>
     <div className='cyber-button-filter'/>
-    <div className='cyber-button-after'>{props.children}</div>
+    <div className='cyber-button-after'>{children}</div>
   </button>
 }
