@@ -1,8 +1,9 @@
-import {FC} from "react";
+import {CSSProperties, FC} from "react";
 import './index.scss'
 
 export const CyberTitle:FC<{
+    style?: CSSProperties
 }> = (props) => {
-    const { children } = props
-    return <h2 className='cyber-title'>{children}</h2>
+    const { children, style } = props
+    return <h2 style={style} className='cyber-title'>{children}</h2>
 }

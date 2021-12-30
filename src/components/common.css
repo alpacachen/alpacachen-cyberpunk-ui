@@ -1,9 +1,9 @@
-/*@font-face {*/
-/*    font-family: BlenderProBook;*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    src: url(/build/fonts/BlenderPro-Book-a6763c9a.woff2) format("woff2"),url(/build/fonts/BlenderPro-Book-a7182e33.woff) format("woff")*/
-/*}*/
+@font-face {
+    font-family: BlenderProBook;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://www.cyberpunk.net/fonts/BlenderPro-Book.woff2) format("woff2"),url(https://www.cyberpunk.net/fonts/BlenderPro-Book.woff2) format("woff")
+}
 
 @font-face {
     font-family: BlenderProBold;

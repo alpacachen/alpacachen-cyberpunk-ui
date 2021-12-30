@@ -9,15 +9,22 @@
   position: relative;
   min-width: 116px;
   text-transform: uppercase;
+  &:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid currentColor;
+    bottom: 6px;
+  }
   &:after{
-    border-top: 1px solid #f8ef00;
     bottom: 0;
     content: "";
     height: 7px;
     left: 0;
     position: absolute;
     width: 100%;
-    background: url('./detail-header-bottom.svg') no-repeat;
-    background-position-y: -1px;
+    background-color: currentColor;
+    mask-image: url("./detail-header-bottom.svg");
+    mask-repeat: no-repeat;
   }
 }

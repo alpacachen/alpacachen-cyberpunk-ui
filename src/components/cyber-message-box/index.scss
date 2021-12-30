@@ -1,0 +1,17 @@
+.cyber-message-box{
+  background: #fcee0a;
+  padding: 1.5em 1.5em 0.5em 1.5em;
+  font-family: BlenderProBook,sans-serif;
+  color: #0e0e0e;
+  position: relative;
+  &:after{
+    content: '';
+    background-image: url("./box-bottom.svg");
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    left: 0;
+    height: 30px;
+  }
+}

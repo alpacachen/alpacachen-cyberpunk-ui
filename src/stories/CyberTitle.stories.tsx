@@ -11,4 +11,5 @@ export default {
 export const Template: Story<Parameters<typeof CyberTitle>[0]> = ({children, ...rest}) => <CyberTitle {...rest}>{children}</CyberTitle>
 Template.args = {
     children: 'this is title',
+    style: {color: 'pink'}
 }

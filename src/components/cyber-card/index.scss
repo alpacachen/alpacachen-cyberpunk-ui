@@ -1,0 +1,15 @@
+.cyber-card{
+  --aug-border-bg: #fcee0a;
+  --aug-border-all: 2px;
+  background-color: #fcee0a;
+  font-family: BlenderProBook,sans-serif;
+  font-size: 12px;
+  .img{
+    width: 100%;
+    margin-bottom: -0.7em;
+  }
+  .text{
+    margin: 0;
+    padding: 0.7em 1em 0.7em 1em;
+  }
+}
