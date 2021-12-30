@@ -46,3 +46,10 @@
 /*    font-weight: 400;*/
 /*    src: url(/build/fonts/AraESNawar-Regular-2bdc6bbd.woff2) format("woff2"),url(/build/fonts/AraESNawar-Regular-d719fefc.woff) format("woff")*/
 /*}*/
+
+.opacity-0{
+    opacity: 0;
+}
+.pointer-events-none{
+    pointer-events: none;
+}

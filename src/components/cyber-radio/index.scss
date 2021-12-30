@@ -1,0 +1,32 @@
+.cyber-radio{
+  display: inline-flex;
+  color: #cdcdcd;
+  border-width: 2px;
+  --aug-border-all: 2px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: BlenderProBold,sans-serif;
+  .item{
+    flex-grow: 1;
+    padding: 1em 1em;
+    cursor: pointer;
+    position: relative;
+    border-right: 4px solid #cdcdcd;
+    .content{
+      position: absolute;
+      text-align: center;
+      left: 0;
+      right: 0;
+    }
+    >input{
+      display: none;
+    }
+  }
+  .item:nth-last-child(1){
+    border: 0;
+  }
+  .active{
+    background: #cdcdcd;
+    color: #000000;
+  }
+}
