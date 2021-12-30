@@ -12,8 +12,8 @@ export default {
 export const Template: Story<Parameters<typeof CyberButton>[0]> = ({children, ...rest}) => <CyberButton {...rest}>{children}</CyberButton>
 Template.args = {
     children: 'play',
-    width: '3em',
+    width: '',
     fontSize: '3em',
-    height: '2em',
+    height: '',
     onClick: (e) => {alert(e.target)}
 }

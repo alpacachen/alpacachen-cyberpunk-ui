@@ -1,0 +1,23 @@
+.cyber-title{
+  color: #f8ef00;
+  font-family: BlenderProBold,sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 18px;
+  padding-bottom: 10px;
+  position: relative;
+  min-width: 116px;
+  text-transform: uppercase;
+  &:after{
+    border-top: 1px solid #f8ef00;
+    bottom: 0;
+    content: "";
+    height: 7px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background: url('./detail-header-bottom.svg') no-repeat;
+    background-position-y: -1px;
+  }
+}
