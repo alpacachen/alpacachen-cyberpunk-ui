@@ -11,7 +11,4 @@ export const Template: Story<Parameters<typeof CyberTextField>[0]> = ({children,
 Template.args = {
     label: 'Enter your email address',
     fullWidth: true,
-    inputProps: {
-        style: { color: '#ffffff', borderColor: '#ffffff' }
-    }
 }
