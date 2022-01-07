@@ -1,3 +1,17 @@
 .cyber-divider{
   font-size: 0;
+  height: 20px;
+  background-size: contain;
+}
+.t-b{
+  background-image: url("../assets/top-black.svg");
+}
+.t-y{
+  background-image: url("../assets/top-yellow.svg");
+}
+.b-b{
+  background-image: url("../assets/bottom-black.svg");
+}
+.b-y{
+  background-image: url("../assets/bottom-yellow.svg");
 }
